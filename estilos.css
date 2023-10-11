@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 231, 248);
+        margin-bottom: 200px;
+}
+
+.row > div{
+    width: 80px;
+    height: 100px;
+    background-color: pink;
+    border: solid palevioletred;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+li {cursor: pointer}
+
+.container{
+    position: relative;
+    width: 480px; 
+    height: 550px; /* altura original */
+    left: 60px; /* lo mueve a la derecha */
+    top: 90px;
+  }
+
+.container img {
+    width: 87px;
+    height: 95px;
+    margin-left: -12px;
+}
+
+.memorama-header > h1{
+    margin: 0px;
+    padding: 0px;
+    background-color: purple;
+    color:aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    line-height: 55px;
+}
+
+/* FUNCIONAMIENTO */
+
+.card-inner {
+    width: 85px;
+    height: 95px; 
+    margin-left: -12px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.5s; 
+    transform-style: preserve-3d;
+}
+
+.card-inner:hover {
+    transform: rotateY(180deg); 
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+img {
+    display: block;
+}
+
+/*FORMULARIO*/
+
+form{
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: -50px;
+}
+

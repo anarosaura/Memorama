@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body> 
+    
+    <header class="memorama-header">
+        <h1>Memorama de animalitos</h1>
+    </header>
+    <br>
+    
+    <form>
+        <h3>¡Regístrate!</h3>
+
+        <div class="mb-3 mt-3"> 
+            <input class="form-control" type="text" placeholder="Name">
+        </div>
+        <div class="mb-3 mt-3"> 
+        
+            <input class="form-control" type="text" placeholder="Last name">
+        </div>
+        <div class="mb-3 mt-3">
+            <input class="form-control" type="text" placeholder="Email">
+        </div>
+        <div> 
+            <input class="form-control" type="text" placeholder="Password">
+        </div>
+        <div class="mt-3">
+            <button class="btn">Cancelar</button>
+            <button class="btn btn-primary">Enviar</button>
+        </div>
+    </form>
+<!-- TARJETAS DE IMAGENES -->
+        <div class="container box">
+            <h3>¡Juega!</h3>
+            <div class="row">
+              <!-- Tarjeta 1 -->
+              <div class="tarjeta" onclick="revealImage(this)">
+                <div class="flipper">
+                    <div class="card-inner">
+                        <div class="card-front"></div>
+                        <div class="card-back">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Oryctolagus_cuniculus_Tasmania_2.jpg"  class="hidden">
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="tarjeta" onclick="revealImage(this)">
+              <div class="flipper">
+                  <div class="card-inner">
+                      <div class="card-front">
+                      </div>
+                        <div class="card-back">
+                          <img src="https://t1.ea.ltmcdn.com/es/posts/3/7/5/tipos_de_jirafas_24573_600_square.jpg"  class="hidden">
+                        </div>
+                      </div>
+                  </div>
+              </div>
+
+          <!-- Tarjeta 3 -->
+          <div class="tarjeta" onclick="revealImage(this)">
+            <div class="flipper">
+                <div class="card-inner">
+                    <div class="card-front"></div>
+                    <div class="card-back">
+                        <img src="https://i.pinimg.com/564x/2d/a1/11/2da111bca956ed8214ef7fa2223434dd.jpg"  class="hidden">
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Tarjeta 4 -->
+        <div class="tarjeta" onclick="revealImage(this)">
+          <div class="flipper">
+              <div class="card-inner">
+                  <div class="card-front"></div>
+                  <div class="card-back">
+                      <img src="https://smylepets.com/wp-content/uploads/2022/07/comprar-beagle.jpg"  class="hidden">
+                  </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+
+        <div class="row">
+          <!-- Tarjeta 5 -->
+          <div class="tarjeta" onclick="revealImage(this)">
+            <div class="flipper">
+                <div class="card-inner">
+                    <div class="card-front"></div>
+                        <div class="card-back">
+                            <img src="https://i.pinimg.com/originals/55/6d/5a/556d5a5f34f98787dd847cc548549214.jpg"  class="hidden">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Tarjeta 6 -->
+        <div class="tarjeta" onclick="revealImage(this)">
+          <div class="flipper">
+              <div class="card-inner">
+                  <div class="card-front"></div>
+                  <div class="card-back">
+                      <img src="https://hospitalveterinariodonostia.com/wp-content/uploads/2020/10/gatos.png"  class="hidden">
+                  </div>
+                    </div>
+              </div>
+          </div>
+
+      <!-- Tarjeta 7 -->
+      <div class="tarjeta" onclick="revealImage(this)">
+        <div class="flipper">
+            <div class="card-inner">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <img src="https://i.pinimg.com/564x/1d/aa/f5/1daaf5d8574ce08f54fb9a041bc17291.jpg"  class="hidden">
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Tarjeta 8 -->
+    <div class="tarjeta" onclick="revealImage(this)">
+      <div class="flipper">
+          <div class="card-inner">
+              <div class="card-front"></div>
+              <div class="card-back">
+                  <img src="https://i.pinimg.com/564x/2d/a1/11/2da111bca956ed8214ef7fa2223434dd.jpg"  class="hidden">
+              </div>
+                </div>
+          </div>
+      </div>
+    </div>
+
+        <div class="row">
+          <!-- Tarjeta 9 -->
+          <div class="tarjeta" onclick="revealImage(this)">
+            <div class="flipper">
+                <div class="card-inner">
+                    <div class="card-front"></div>
+                    <div class="card-back">
+                        <img src="https://smylepets.com/wp-content/uploads/2022/07/comprar-beagle.jpg"  class="hidden">
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- Tarjeta 10 -->
+        <div class="tarjeta" onclick="revealImage(this)">
+          <div class="flipper">
+              <div class="card-inner">
+                  <div class="card-front"></div>
+                    <div class="card-back">
+                        <img src="https://i.pinimg.com/564x/35/c9/1b/35c91b050a8337b630546152b5ff321a.jpg"  class="hidden">
+                    </div>
+                </div>
+              </div>
+          </div>
+
+      <!-- Tarjeta 11 -->
+      <div class="tarjeta" onclick="revealImage(this)">
+        <div class="flipper">
+            <div class="card-inner">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/37/Oryctolagus_cuniculus_Tasmania_2.jpg"  class="hidden">
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Tarjeta 12 -->
+    <div class="tarjeta" onclick="revealImage(this)">
+      <div class="flipper">
+          <div class="card-inner">
+              <div class="card-front"></div>
+              <div class="card-back">
+                  <img src="https://i.pinimg.com/564x/a6/20/24/a62024f3c04218db42a9648453d66486.jpg"  class="hidden">
+              </div>
+                </div>
+          </div>
+      </div>
+    </div>
+
+
+      <div class="row">
+        <!-- Tarjeta 13 -->
+        <div class="tarjeta" onclick="revealImage(this)">
+          <div class="flipper">
+              <div class="card-inner">
+                  <div class="card-front"></div>
+                  <div class="card-back">
+                      <img src="https://t1.ea.ltmcdn.com/es/posts/3/7/5/tipos_de_jirafas_24573_600_square.jpg"  class="hidden">
+                  </div>
+                    </div>
+              </div>
+          </div>
+
+      <!-- Tarjeta 14 -->
+      <div class="tarjeta" onclick="revealImage(this)">
+        <div class="flipper">
+            <div class="card-inner">
+                <div class="card-front"></div>
+                <div class="card-back">
+                    <img src="https://i.pinimg.com/564x/a3/21/94/a3219474934052109a7e90b06ac92c9a.jpg"  class="hidden">
+                </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- Tarjeta 15 -->
+    <div class="tarjeta" onclick="revealImage(this)">
+      <div class="flipper">
+          <div class="card-inner">
+              <div class="card-front"></div>
+              <div class="card-back">
+                  <img src="https://i.pinimg.com/originals/55/6d/5a/556d5a5f34f98787dd847cc548549214.jpg"  class="hidden">
+              </div>
+                </div>
+          </div>
+      </div>
+
+  <!-- Tarjeta 16 -->
+  <div class="tarjeta" onclick="revealImage(this)">
+    <div class="flipper">
+        <div class="card-inner">
+            <div class="card-front"></div>
+            <div class="card-back">
+                <img src="https://i.pinimg.com/564x/35/c9/1b/35c91b050a8337b630546152b5ff321a.jpg"  class="hidden">
+            </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <!-- Tarjeta 17 -->
+    <div class="tarjeta" onclick="revealImage(this)">
+      <div class="flipper">
+          <div class="card-inner">
+              <div class="card-front"></div>
+                <div class="card-back">
+                    <img src="https://i.pinimg.com/564x/1d/aa/f5/1daaf5d8574ce08f54fb9a041bc17291.jpg"  class="hidden">
+                </div>
+            </div>
+          </div>
+      </div>
+
+  <!-- Tarjeta 18 -->
+  <div class="tarjeta" onclick="revealImage(this)">
+    <div class="flipper">
+        <div class="card-inner">
+            <div class="card-front"></div>
+                <div class="card-back">
+                    <img src="https://hospitalveterinariodonostia.com/wp-content/uploads/2020/10/gatos.png"  class="hidden">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Tarjeta 19 -->
+<div class="tarjeta" onclick="revealImage(this)">
+  <div class="flipper">
+      <div class="card-inner">
+          <div class="card-front"></div>
+          <div class="card-back">
+              <img src="https://i.pinimg.com/564x/a6/20/24/a62024f3c04218db42a9648453d66486.jpg"  class="hidden">
+          </div>
+            </div>
+      </div>
+  </div>
+
+<!-- Tarjeta 20 -->
+<div class="tarjeta" onclick="revealImage(this)">
+<div class="flipper">
+    <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back">
+            <img src="https://i.pinimg.com/564x/a3/21/94/a3219474934052109a7e90b06ac92c9a.jpg"  class="hidden">
+        </div>
+        </div>
+    </div>
+</div>
+</div>
+
+    </div>
+    <script src="jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
